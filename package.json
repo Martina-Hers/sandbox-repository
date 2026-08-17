@@ -1,0 +1,16 @@
+{
+  "name": "github-corporate-sandbox",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Repositorio laboratorio para practicar GitHub Actions, proteccion de ramas, Projects, Dependabot y seguridad.",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test",
+    "ci": "npm run lint && npm test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

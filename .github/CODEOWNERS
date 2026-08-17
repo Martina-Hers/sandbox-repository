@@ -1,0 +1,5 @@
+# Sustituye YOUR_GITHUB_USERNAME por tu usuario o por un equipo de tu organizacion.
+* @YOUR_GITHUB_USERNAME
+
+.github/workflows/ @YOUR_GITHUB_USERNAME
+.github/dependabot.yml @YOUR_GITHUB_USERNAME
