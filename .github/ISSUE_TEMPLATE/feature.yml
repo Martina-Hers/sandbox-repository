@@ -1,18 +1,14 @@
 name: Feature
-about: Solicitud de funcionalidad para practicar el flujo Issue -> Branch -> PR
-labels: [enhancement]
+description: Solicitud de funcionalidad para practicar el flujo Issue -> Branch -> PR
+title: "[Feature]: "
+labels: ["enhancement"]
+
 body:
   - type: textarea
     id: problem
     attributes:
       label: Problema
-      description: Que necesidad quieres resolver?
-    validations:
-      required: true
-  - type: textarea
-    id: acceptance
-    attributes:
-      label: Criterios de aceptacion
-      description: Como sabremos que esta terminado?
+      description: ¿Qué necesidad quieres resolver?
+      placeholder: Describe el problema o necesidad, no solo la solución.
     validations:
       required: true
