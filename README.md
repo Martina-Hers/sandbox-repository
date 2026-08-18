@@ -56,14 +56,5 @@ Issue -> Project -> feature branch -> Pull Request
                     Dependabot
 ```
 
-## Antes de subirlo a GitHub
-
-1. Reemplaza `YOUR_GITHUB_USERNAME` en `.github/CODEOWNERS`.
-2. Crea un repo nuevo y vacio; no uses un repositorio de produccion.
-3. Sube este contenido a `main`.
-4. Configura GitHub siguiendo `docs/github-settings.md`.
-5. Ejecuta los labs de `docs/labs/` en orden.
-
-## Regla de seguridad del laboratorio
-
-No uses secretos reales, datos corporativos, endpoints productivos ni credenciales de servicios reales.
+## Dato interesante:
+"GitHub Agentic Workflows" actualmente en public preview. Permite definir automatizaciones de repositorio mediante instrucciones en lenguaje natural ejecutadas por agentes dentro de GitHub Actions. Por ejemplo: clasificar Issues automáticamente, investigar fallos de CI, mantener documentación o generar reportes periódicos.
