@@ -9,7 +9,7 @@ export function validatePurchaseOrder(order) {
     return { ok: false, reason: 'Amount must be a positive number' };
   }
 
-  if (amount > 10000 && !approvedBy) {
+  if (amount > 12000 && !approvedBy) {
     return { ok: false, reason: 'High-value orders require approval' };
   }
 
