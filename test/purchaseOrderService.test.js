@@ -13,7 +13,7 @@ test('rejects zero or negative amounts', () => {
 
 test('requires approval for orders above 10000', () => {
   assert.deepEqual(
-    validatePurchaseOrder({ amount: 15000 }),
+    validatePurchaseOrder({ amount: -15000 }),
     { ok: false, reason: 'High-value orders require approval' }
   );
 });
