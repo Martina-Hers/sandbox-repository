@@ -14,6 +14,8 @@ Repositorio de practica para simular un flujo corporativo sin tocar produccion.
 - Secret scanning / push protection (segun disponibilidad del plan).
 - CODEOWNERS y plantillas de Issues/PRs.
 
+- Testeeeee
+
 ## Aplicacion
 
 API Node.js sin dependencias externas iniciales:
